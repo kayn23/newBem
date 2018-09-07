@@ -1,0 +1,65 @@
+.head {
+    background: url("../../img/backgroundHeader.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: $lightColor;
+
+    &_textCenter {
+        text-align: center;
+    }
+
+    &__container {
+        max-width: 900px;
+
+        @include media-breakpoint-down(lg) {
+            max-width: 85%;
+        }
+
+        &_headerPosition {
+            @extend %alignCenter;
+            padding: 280px 0 115px;
+
+            @include media-breakpoint-down(md) {
+                padding: 140px 0 60px;
+            }
+
+        }
+    }
+
+    &__logo {
+        &_headerPosition {
+            margin-bottom: 95px;
+        }
+    }
+
+
+
+    &__caption {
+        font-size: 54px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 8.62px;
+
+        &_headerPosition {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29px;
+        text-transform: uppercase;
+        letter-spacing: 0.9px;
+
+        &_headerPosition {
+            margin-bottom: 250px;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 150px;
+            }
+        }
+    }
+
+
+}

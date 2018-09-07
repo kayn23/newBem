@@ -5,6 +5,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 /* line 1, C:/Users/User/Desktop/newBemMaket/bootstrap_scss/_root.scss */
 :root {
   --blue: #007bff;
@@ -8064,5 +8065,67 @@ a.text-dark:hover, a.text-dark:focus {
 /*------------------
 Здесь хранятся все переменные и mixin
 ------------------*/
+/* line 9, C:/Users/User/Desktop/newBemMaket/scss/varibles */
+.head__container_headerPosition {
+  margin: 0 auto; }
+
+/* line 13, C:/Users/User/Desktop/newBemMaket/scss/varibles */
+* {
+  font-family: 'Lato', sans-serif; }
+
+/* line 5, C:/Users/User/Desktop/newBemMaket/scss/style.scss */
+.b_gen {
+  background: #ccc;
+  height: 300px; }
+
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+.head {
+  background: url("../../img/backgroundHeader.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff; }
+  /* line 7, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+  .head_textCenter {
+    text-align: center; }
+  /* line 11, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+  .head__container {
+    max-width: 900px; }
+    @media (max-width: 1199.98px) {
+      /* line 11, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+      .head__container {
+        max-width: 85%; } }
+    /* line 18, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+    .head__container_headerPosition {
+      padding: 280px 0 115px; }
+      @media (max-width: 991.98px) {
+        /* line 18, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+        .head__container_headerPosition {
+          padding: 140px 0 60px; } }
+  /* line 30, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+  .head__logo_headerPosition {
+    margin-bottom: 95px; }
+  /* line 37, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+  .head__caption {
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.62px; }
+    /* line 43, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+    .head__caption_headerPosition {
+      margin-bottom: 50px; }
+  /* line 48, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+  .head__text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    letter-spacing: 0.9px; }
+    /* line 55, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+    .head__text_headerPosition {
+      margin-bottom: 250px; }
+      @media (max-width: 991.98px) {
+        /* line 55, C:/Users/User/Desktop/newBemMaket/scss/block/header */
+        .head__text_headerPosition {
+          margin-bottom: 150px; } }
 
 /*# sourceMappingURL=../css/style.map */

@@ -1,2 +1,10 @@
 @import "../bootstrap_scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 @import "varibles";
+
+.b_gen {
+    background: #ccc;
+    height: 300px;
+}
+
+@import "block/header";

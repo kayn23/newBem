@@ -2,3 +2,14 @@
 Здесь хранятся все переменные и mixin
 ------------------*/
 
+$darkColor: #3c3c3c;
+$lightColor: #ffffff;
+$generalFontF: Lato;
+
+%alignCenter {
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
