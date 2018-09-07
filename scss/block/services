@@ -1,0 +1,38 @@
+.services {
+    background: url("../../img/serviceBackground.png") no-repeat center center;
+    background-size: cover;
+
+    &_position {
+        padding: 160px 0;
+        @include media-breakpoint-down(lg) {
+            padding: 80px 0;
+        }
+        @include media-breakpoint-down(md) {
+            padding: 80px 15px;
+        }
+    }
+
+    &__textBlock {
+        max-width: 900px;
+        text-align: center;
+        color: $lightColor;
+
+        &_position {
+            //            border: 2px solid $lightColor;
+            //            margin: 0 auto;
+            margin: 0 auto;
+            padding: 50px 170px;
+            border: 2px solid #fff;
+
+            @include media-breakpoint-down(lg) {
+                padding: 50px 75px;
+                //margin: 80px auto;
+            }
+
+            @include media-breakpoint-down(md) {
+                //margin: 80px 15px;
+                padding: 50px 40px;
+            }
+        }
+    }
+}

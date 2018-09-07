@@ -11,6 +11,12 @@
         background: #fff;
         box-sizing: border-box;
     }
+    
+    &_positionServices {
+        margin-top: -74px;
+        margin: -74px 50px 50px;
+        box-sizing: border-box;
+    }
 }
 
 .genText {
@@ -18,9 +24,4 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
-
-    &_aboutUsPosition {
-        text-align: center;
-        //margin: 0 170px;
-    }
 }
