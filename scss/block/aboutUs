@@ -1,0 +1,10 @@
+.aboutUs {
+    max-width: 900px;
+    
+    &_position {
+        margin: 160px auto;
+        padding: 50px 170px;
+        text-align: center;
+        border: 2px solid $darkColor;
+    }
+}

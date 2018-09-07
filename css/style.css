@@ -8078,6 +8078,21 @@ a.text-dark:hover, a.text-dark:focus {
   background: #ccc;
   height: 300px; }
 
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+.genCaption {
+  font-family: Lato;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px; }
+
+/* line 9, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+.genText {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; }
+
 /* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/header */
 .head {
   background: url("../../img/backgroundHeader.jpg") no-repeat;
@@ -8127,5 +8142,15 @@ a.text-dark:hover, a.text-dark:focus {
         /* line 55, C:/Users/User/Desktop/newBemMaket/scss/block/header */
         .head__text_headerPosition {
           margin-bottom: 150px; } }
+
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/aboutUs */
+.aboutUs {
+  max-width: 900px; }
+  /* line 4, C:/Users/User/Desktop/newBemMaket/scss/block/aboutUs */
+  .aboutUs_position {
+    margin: 160px auto;
+    padding: 50px 170px;
+    text-align: center;
+    border: 2px solid #3c3c3c; }
 
 /*# sourceMappingURL=../css/style.map */
