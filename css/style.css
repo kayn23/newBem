@@ -8085,13 +8085,22 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 8.95px; }
+  /* line 8, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+  .genCaption_positionAboutUs {
+    margin-top: -74px;
+    margin: -74px 50px 50px;
+    background: #fff;
+    box-sizing: border-box; }
 
-/* line 9, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+/* line 16, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
 .genText {
   font-family: Lato;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px; }
+  /* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+  .genText_aboutUsPosition {
+    text-align: center; }
 
 /* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/header */
 .head {
