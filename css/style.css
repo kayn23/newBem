@@ -8107,6 +8107,9 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 16px;
   font-weight: 300;
   line-height: 24px; }
+  /* line 29, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+  .genText_positionContact {
+    margin-bottom: 40px; }
 
 /* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/header */
 .head {
@@ -8291,5 +8294,46 @@ a.text-dark:hover, a.text-dark:focus {
     /* line 48, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
     .previous__item:nth-child(6) {
       background: url(../../img/sectionPrevious/Layer6.jpg); }
+
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+.contact {
+  max-width: 900px;
+  text-align: center;
+  color: #3c3c3c; }
+  /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+  .contact_position {
+    border: 2px solid #3c3c3c;
+    margin: 120px auto 30px;
+    padding: 50px 150px; }
+    @media (max-width: 1199.98px) {
+      /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+      .contact_position {
+        padding: 50px 75px;
+        margin: 80px auto 30px; } }
+    @media (max-width: 991.98px) {
+      /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+      .contact_position {
+        margin: 80px 15px 30px;
+        padding: 50px 40px; } }
+  /* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+  .contact__buttons {
+    border: 2px solid #3c3c3c;
+    background-color: #3c3c3c;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.54px;
+    text-transform: uppercase;
+    width: 390px;
+    height: 58px; }
+    @media (max-width: 991.98px) {
+      /* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+      .contact__buttons {
+        width: 290px; } }
+
+/* line 19, C:/Users/User/Desktop/newBemMaket/scss/style.scss */
+footer {
+  padding: 30px;
+  text-align: center; }
 
 /*# sourceMappingURL=../css/style.map */
