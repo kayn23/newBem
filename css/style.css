@@ -8073,6 +8073,13 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   font-family: 'Lato', sans-serif; }
 
+/* line 17, C:/Users/User/Desktop/newBemMaket/scss/varibles */
+.genCaption_positionAboutUs, .genCaption_positionWhatWeDo {
+  margin-top: -74px;
+  margin: -74px 50px 50px;
+  background: #fff;
+  box-sizing: border-box; }
+
 /* line 5, C:/Users/User/Desktop/newBemMaket/scss/style.scss */
 .b_gen {
   background: #ccc;
@@ -8085,19 +8092,16 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 8.95px; }
-  /* line 8, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
-  .genCaption_positionAboutUs {
-    margin-top: -74px;
-    margin: -74px 50px 50px;
-    background: #fff;
-    box-sizing: border-box; }
-  /* line 15, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+  /* line 12, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
   .genCaption_positionServices {
     margin-top: -74px;
     margin: -74px 50px 50px;
     box-sizing: border-box; }
+  /* line 18, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+  .genCaption_positionWhatWeDo {
+    margin-bottom: 100px; }
 
-/* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
+/* line 24, C:/Users/User/Desktop/newBemMaket/scss/block/generalStyle */
 .genText {
   font-family: Lato;
   font-size: 16px;
@@ -8207,5 +8211,39 @@ a.text-dark:hover, a.text-dark:focus {
         /* line 20, C:/Users/User/Desktop/newBemMaket/scss/block/services */
         .services__textBlock_position {
           padding: 50px 40px; } }
+
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+.whatWeDo {
+  max-width: 900px;
+  text-align: center;
+  color: #3c3c3c; }
+  /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+  .whatWeDo_position {
+    border: 2px solid #3c3c3c;
+    margin: 120px auto;
+    padding: 50px 150px; }
+    @media (max-width: 1199.98px) {
+      /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+      .whatWeDo_position {
+        padding: 50px 75px;
+        margin: 80px auto; } }
+    @media (max-width: 991.98px) {
+      /* line 6, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+      .whatWeDo_position {
+        margin: 80px 15px;
+        padding: 50px 40px; } }
+  /* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+  .whatWeDo__captionItem {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5.26px; }
+    /* line 28, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+    .whatWeDo__captionItem_positionWWD {
+      margin: 0 0 30px; }
+  /* line 34, C:/Users/User/Desktop/newBemMaket/scss/block/whatWeDo */
+  .whatWeDo__imgage_positionWWD {
+    display: block;
+    margin: 0 auto 30px; }
 
 /*# sourceMappingURL=../css/style.map */

@@ -6,16 +6,18 @@
     letter-spacing: 8.95px;
 
     &_positionAboutUs {
-        margin-top: -74px;
-        margin: -74px 50px 50px;
-        background: #fff;
-        box-sizing: border-box;
+        @extend %posGenCaption;
     }
-    
+
     &_positionServices {
         margin-top: -74px;
         margin: -74px 50px 50px;
         box-sizing: border-box;
+    }
+
+    &_positionWhatWeDo {
+        @extend %posGenCaption;
+        margin-bottom: 100px;
     }
 }
 

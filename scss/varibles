@@ -13,3 +13,11 @@ $generalFontF: Lato;
 * {
     font-family: 'Lato', sans-serif;
 }
+
+%posGenCaption {
+    margin-top: -74px;
+    margin: -74px 50px 50px;
+    background: #fff;
+    box-sizing: border-box;
+}
+

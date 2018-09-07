@@ -1,0 +1,39 @@
+.whatWeDo {
+    max-width: 900px;
+    text-align: center;
+    color: $darkColor;
+
+    &_position {
+        border: 2px solid $darkColor;
+        margin: 120px auto;
+        padding: 50px 150px;
+
+        @include media-breakpoint-down(lg) {
+            padding: 50px 75px;
+            margin: 80px auto;
+        }
+
+        @include media-breakpoint-down(md) {
+            margin: 80px 15px;
+            padding: 50px 40px;
+        }
+    }
+
+    &__captionItem {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 5.26px;
+
+        &_positionWWD {
+            margin: 0 0 30px;
+        }
+    }
+
+    &__imgage {
+        &_positionWWD {
+            display: block;
+            margin: 0 auto 30px;
+        }
+    }
+}
