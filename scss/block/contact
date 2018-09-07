@@ -32,5 +32,9 @@
         @include media-breakpoint-down(md) {
             width: 290px;
         }
+        
+        &:hover{
+            cursor: pointer;
+        }
     }
 }

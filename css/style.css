@@ -8330,6 +8330,9 @@ a.text-dark:hover, a.text-dark:focus {
       /* line 22, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
       .contact__buttons {
         width: 290px; } }
+    /* line 36, C:/Users/User/Desktop/newBemMaket/scss/block/contact */
+    .contact__buttons:hover {
+      cursor: pointer; }
 
 /* line 19, C:/Users/User/Desktop/newBemMaket/scss/style.scss */
 footer {
