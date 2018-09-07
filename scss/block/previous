@@ -1,0 +1,53 @@
+.previous {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-auto-rows: 237px;
+    grid-gap: 5px;
+    
+    @include media-breakpoint-down(lg) {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    @include media-breakpoint-down(md) {
+        grid-template-columns: 1fr;
+    }
+
+    &__caption {
+        color: $lightColor;
+        font-size: 34px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 8.95px;
+    }
+
+    &__item {
+        padding: 40px;
+        display: flex;
+        align-items: flex-end;
+        background-size: cover!important;
+        &:nth-child(1) {
+            background: url(../../img/sectionPrevious/Layer1.jpg);
+        }
+
+        &:nth-child(2) {
+            background: url(../../img/sectionPrevious/Layer3.jpg);
+        }
+
+        &:nth-child(3) {
+            background: url(../../img/sectionPrevious/Layer5.jpg);
+        }
+
+        &:nth-child(4) {
+            background: url(../../img/sectionPrevious/Layer2.jpg);
+        }
+
+        &:nth-child(5) {
+            background: url(../../img/sectionPrevious/Layer4.jpg);
+        }
+
+        &:nth-child(6) {
+            background: url(../../img/sectionPrevious/Layer6.jpg);
+        }
+        
+    }
+}

@@ -8246,4 +8246,50 @@ a.text-dark:hover, a.text-dark:focus {
     display: block;
     margin: 0 auto 30px; }
 
+/* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+.previous {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-auto-rows: 237px;
+  grid-gap: 5px; }
+  @media (max-width: 1199.98px) {
+    /* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous {
+      grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 991.98px) {
+    /* line 1, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous {
+      grid-template-columns: 1fr; } }
+  /* line 15, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+  .previous__caption {
+    color: #ffffff;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px; }
+  /* line 23, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+  .previous__item {
+    padding: 40px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover !important; }
+    /* line 28, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(1) {
+      background: url(../../img/sectionPrevious/Layer1.jpg); }
+    /* line 32, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(2) {
+      background: url(../../img/sectionPrevious/Layer3.jpg); }
+    /* line 36, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(3) {
+      background: url(../../img/sectionPrevious/Layer5.jpg); }
+    /* line 40, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(4) {
+      background: url(../../img/sectionPrevious/Layer2.jpg); }
+    /* line 44, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(5) {
+      background: url(../../img/sectionPrevious/Layer4.jpg); }
+    /* line 48, C:/Users/User/Desktop/newBemMaket/scss/block/previous */
+    .previous__item:nth-child(6) {
+      background: url(../../img/sectionPrevious/Layer6.jpg); }
+
 /*# sourceMappingURL=../css/style.map */
