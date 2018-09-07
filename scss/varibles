@@ -14,6 +14,13 @@ $generalFontF: Lato;
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 %posGenCaption {
     margin-top: -74px;
     margin: -74px 50px 50px;
