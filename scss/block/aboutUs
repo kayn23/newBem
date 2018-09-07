@@ -6,5 +6,13 @@
         padding: 50px 170px;
         text-align: center;
         border: 2px solid $darkColor;
+        @include media-breakpoint-down(lg) {
+            padding: 50px 75px;
+            margin: 80px auto;
+        }
+        @include media-breakpoint-down(md) {
+            margin: 80px 15px;
+            padding: 50px 40px;
+        }
     }
 }
