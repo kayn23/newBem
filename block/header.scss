@@ -40,6 +40,10 @@
         text-transform: uppercase;
         letter-spacing: 8.62px;
 
+        @include media-breakpoint-down(xs) {
+            font-size: 48px;
+        }
+
         &_headerPosition {
             margin-bottom: 50px;
         }

@@ -34,8 +34,13 @@
 
         &_positionContact {
             margin: 0 auto;
+
             @include media-breakpoint-down(md) {
                 width: 290px;
+            }
+
+            @include media-breakpoint-down(xs) {
+                width: 200px;
             }
         }
 

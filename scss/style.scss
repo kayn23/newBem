@@ -7,13 +7,13 @@
     height: 300px;
 }
 
-@import "block/generalStyle";
-@import "block/header";
-@import "block/aboutUs";
-@import "block/services";
-@import "block/whatWeDo";
-@import "block/previous";
-@import "block/contact";
+@import "../block/generalStyle";
+@import "../block/header";
+@import "../block/aboutUs";
+@import "../block/services";
+@import "../block/whatWeDo";
+@import "../block/previous";
+@import "../block/contact";
 
 
 footer {

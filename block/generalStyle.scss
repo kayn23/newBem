@@ -1,3 +1,5 @@
+
+
 .genCaption {
     font-family: $generalFontF;
     font-size: 34px;
@@ -7,17 +9,20 @@
 
     &_positionAboutUs {
         @extend %posGenCaption;
+        @extend %mini;
     }
 
     &_positionServices {
         margin-top: -74px;
         margin: -74px 50px 50px;
         box-sizing: border-box;
+        @extend %mini;
     }
 
     &_positionWhatWeDo {
         @extend %posGenCaption;
         margin-bottom: 100px;
+        @extend %mini;
     }
 }
 
@@ -26,6 +31,7 @@
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
+
     &_positionContact {
         margin-bottom: 40px;
     }
