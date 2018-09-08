@@ -1,5 +1,5 @@
 .head {
-    background: url("../../img/backgroundHeader.jpg") no-repeat;
+    background: url("../img/backgroundHeader.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
     color: $lightColor;

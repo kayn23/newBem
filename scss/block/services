@@ -1,5 +1,5 @@
 .services {
-    background: url("../../img/serviceBackground.png") no-repeat center center;
+    background: url("../img/serviceBackground.png") no-repeat center center;
     background-size: cover;
 
     &_position {
