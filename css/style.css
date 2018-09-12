@@ -10311,12 +10311,25 @@ a:hover {
   box-sizing: border-box;
 }
 
-/* line 22, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
+/* line 29, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
+.genCaption_positionServicesLegend {
+  padding: 0 100px;
+  width: auto;
+}
+
+@media (max-width: 575.98px) {
+  /* line 29, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
+  .genCaption_positionServicesLegend {
+    display: none;
+  }
+}
+
+/* line 36, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
 .genCaption_positionWhatWeDo {
   margin-bottom: 100px;
 }
 
-/* line 29, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
+/* line 43, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
 .genText {
   font-family: Lato;
   font-size: 16px;
@@ -10324,7 +10337,7 @@ a:hover {
   line-height: 24px;
 }
 
-/* line 35, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
+/* line 49, C:/Users/User/Desktop/newBemMaket/block/generalStyle.scss */
 .genText_positionContact {
   margin-bottom: 40px;
 }
@@ -10477,7 +10490,7 @@ a:hover {
 .services__textBlock_position {
   margin: 0 auto;
   padding: 50px 170px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 
 @media (max-width: 1199.98px) {

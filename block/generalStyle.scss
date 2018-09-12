@@ -13,12 +13,24 @@
     }
 
     &_positionServices {
-        margin-top: -74px;
-        margin: -74px 50px 50px;
         box-sizing: border-box;
         @extend %mini;
+//        margin-top: -74px;
+//        margin: -74px 50px 50px;
+//        box-sizing: border-box;
+//        @extend %mini;
+        @include media-breakpoint-up(sm) {
+            display: none;
+        }
     }
 
+    &_positionServicesLegend {
+        padding: 0 100px;
+        width: auto;
+        @include media-breakpoint-down(xs) {
+            display: none;
+        }
+    }
     &_positionWhatWeDo {
         @extend %posGenCaption;
         margin-bottom: 100px;
